@@ -1,8 +1,12 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
     <ActionBar title="My App" icon="" />
     <StackLayout class="p-4">
-        <Label text="Please tap me" class="text-3xl text-center" />
-        <Button text="TAP" tap="{{ onTap }}" class="-primary" />
-        <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" />
+        <Label text="Welcome to My App!" class="text-3xl text-center mb-4" />
+        <Label text="This is a simple NativeScript application.  You can use this as a starting point for building more complex apps." class="text-lg mb-4" textWrap="true"/>
+        <Label text="Here's some additional information about the app:" class="font-bold text-xl mb-2" />
+        <Label text="This paragraph demonstrates some additional text. You can customize the styling using Tailwind CSS classes." class="text-gray-600 text-base mb-4" textWrap="true"/>
+        <Label text="This is another paragraph. Feel free to add more content as needed." class="text-gray-600 text-base" textWrap="true"/>
+        <Button text="TAP" tap="{{ onTap }}" class="-primary mt-4" />
+        <Label text="{{ message }}" class="text-lg text-center text-gray-400 mt-4" textWrap="true" />
     </StackLayout>
 </Page>
