@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <GridLayout>
+        <ContentView background="linear-gradient(to bottom, #fe6b8b, #ff8e53)" />
+        <Label text="Welcome to My App!" class="text-3xl text-center text-white" verticalAlignment="middle" />
+    </GridLayout>
+</Page>
